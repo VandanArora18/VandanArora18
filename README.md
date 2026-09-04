@@ -126,8 +126,3 @@
     <img alt="Snake eating contribution graph" src="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-light.svg" width="100%" />
   </picture>
 </p>
-
-<br/>
-
-<!-- 🤝 Connect with Me -->
-

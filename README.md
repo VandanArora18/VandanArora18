@@ -74,16 +74,25 @@
 <p align="center">
   <!-- Streak Counter -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=A78BFA&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakNum=A78BFA&sideNums=A78BFA&sideTitle=F8FAFC&dates=94A3B8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=default&background=FFFFFF&border=6D28D9&stroke=6D28D9&ring=6D28D9&fire=6D28D9&currStreakNum=6D28D9&sideNums=6D28D9" />
-    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=A78BFA&stroke=A78BFA&ring=A78BFA&fire=A78BFA" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=0D1117&hide_border=true&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakNum=A78BFA&sideNums=A78BFA&sideTitle=F8FAFC&dates=94A3B8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=default&background=FFFFFF&hide_border=true&stroke=6D28D9&ring=6D28D9&fire=6D28D9&currStreakNum=6D28D9&sideNums=6D28D9" />
+    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=0D1117&hide_border=true&stroke=A78BFA&ring=A78BFA&fire=A78BFA" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
+  <!-- GitHub Stats Card -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&hide_border=true" />
+    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&hide_border=true" width="49%" />
   </picture>
   &nbsp;
   <!-- Top Languages Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
-    <img alt="Vandan's Top Languages" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=0D1117&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&hide_border=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&hide_border=true" />
+    <img alt="Vandan's Top Languages" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=0D1117&hide_border=true" width="49%" />
   </picture>
 </p>
 

@@ -13,8 +13,8 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageDraw, ImageFont, ImageOps
 # ── Config ───────────────────────────────────────────────────────────
 CW, CH = 315, 340  # Exact reference grid size for the pixel art
 N_PG = 15          # Groups for staggering the reveal
-SYMBOLS = ["</>", "Py", "SQL", "{f}", "V"]
-N_PHASES = 1 + len(SYMBOLS)
+LOGOS = ["python.png", "tf.png", "vercel.png", "opencv.png", "dart.png"]
+N_PHASES = 1 + len(LOGOS)
 CYC_D = 18.0       # cycle period
 CYC_T = 3.2        # start cycle after initial reveal
 
@@ -78,19 +78,23 @@ def process_photo_dots(path):
                 gs[(x*7 + y*13 + random.randint(0, max(1, N_PG-2))) % N_PG].append((x, y))
     return gs
 
-def make_symbol_dots(text):
-    img = Image.new('L', (CW, CH), 255)
-    draw = ImageDraw.Draw(img)
-    for sz in range(250, 40, -8):
-        f = _font(sz)
-        bb = draw.textbbox((0, 0), text, font=f)
-        tw, th = bb[2] - bb[0], bb[3] - bb[1]
-        if tw < CW * 0.85 and th < CH * 0.65: break
+def make_logo_dots(path):
+    if not os.path.exists(path):
+        return [[] for _ in range(N_PG)]
+    logo = Image.open(path).convert('RGBA')
+    bg = Image.new('RGBA', logo.size, (255, 255, 255, 255))
+    logo = Image.alpha_composite(bg, logo).convert('L')
     
-    draw.text(((CW - tw) // 2 - bb[0], (CH - th) // 2 - bb[1]), text, font=f, fill=0)
-    img = img.filter(ImageFilter.GaussianBlur(radius=2.0))
+    logo.thumbnail((int(CW * 0.55), int(CH * 0.55)), Image.Resampling.LANCZOS)
     
-    bw = img.convert('1', dither=Image.Dither.FLOYDSTEINBERG)
+    canvas = Image.new('L', (CW, CH), 255)
+    lw, lh = logo.size
+    canvas.paste(logo, ((CW - lw) // 2, (CH - lh) // 2))
+    
+    canvas = canvas.filter(ImageFilter.GaussianBlur(radius=0.8))
+    canvas = ImageEnhance.Contrast(canvas).enhance(1.5)
+    
+    bw = canvas.convert('1', dither=Image.Dither.FLOYDSTEINBERG)
     
     gs = [[] for _ in range(N_PG)]
     for y in range(CH):
@@ -256,8 +260,8 @@ def main():
     print(f"1/3  Processing photo at reference grid size ({CW}x{CH})...")
     p_groups = process_photo_dots(photo)
 
-    print("2/3  Generating symbol dots...")
-    sym_groups = [make_symbol_dots(s) for s in SYMBOLS]
+    print("2/3  Generating logo dots...")
+    sym_groups = [make_logo_dots(os.path.join(repo, s)) for s in LOGOS]
 
     print("3/3  Building SVGs...")
     for m in ("dark", "light"):

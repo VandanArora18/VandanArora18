@@ -4,8 +4,8 @@ def get_base64(filepath):
     with open(filepath, "rb") as f:
         return base64.b64encode(f.read()).decode('utf-8')
 
-grab_scale_b64 = get_base64(r"C:\Users\Vandan\.gemini\antigravity-ide\brain\2cf5fba7-e6cb-4055-9f01-eab269d0ea45\.user_uploaded\media_1788543439541.png")
-carrier_lock_b64 = get_base64(r"C:\Users\Vandan\.gemini\antigravity-ide\brain\2cf5fba7-e6cb-4055-9f01-eab269d0ea45\.user_uploaded\media_1788543488031.png")
+grab_scale_b64 = get_base64("grabscale_logo.png")
+carrier_lock_b64 = get_base64("carrierlock_logo.png")
 
 svg = f"""<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>

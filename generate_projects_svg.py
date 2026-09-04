@@ -7,7 +7,7 @@ def get_base64(filepath):
 grab_scale_b64 = get_base64(r"C:\Users\Vandan\.gemini\antigravity-ide\brain\2cf5fba7-e6cb-4055-9f01-eab269d0ea45\.user_uploaded\media_1788543439541.png")
 carrier_lock_b64 = get_base64(r"C:\Users\Vandan\.gemini\antigravity-ide\brain\2cf5fba7-e6cb-4055-9f01-eab269d0ea45\.user_uploaded\media_1788543488031.png")
 
-svg = f"""<svg width="950" height="220" viewBox="0 0 950 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+svg = f"""<svg width="1000" height="220" viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <style>
       .bg {{ fill: transparent; }}
@@ -25,16 +25,16 @@ svg = f"""<svg width="950" height="220" viewBox="0 0 950 220" xmlns="http://www.
     <clipPath id="imgClip"><rect width="48" height="48" rx="8"/></clipPath>
   </defs>
 
-  <rect width="950" height="220" class="bg" />
+  <rect width="1000" height="220" class="bg" />
   
   <text x="20" y="30" class="proj-list-title">PROJECTS.LIST  ./projects.sh --all</text>
 
   <!-- CARD 1: GrabScale -->
   <g transform="translate(20, 50)">
-    <rect width="450" height="150" class="card-bg"/>
+    <rect width="470" height="150" class="card-bg"/>
     <circle cx="15" cy="15" r="3" fill="#38BDF8"/>
     <text x="25" y="19" class="repo-title">VandanArora18/GrabScale</text>
-    <circle cx="435" cy="15" r="3" fill="#1E293B"/>
+    <circle cx="455" cy="15" r="3" fill="#1E293B"/>
     
     <g transform="translate(15, 45)">
       <g clip-path="url(#imgClip)">
@@ -55,27 +55,27 @@ svg = f"""<svg width="950" height="220" viewBox="0 0 950 220" xmlns="http://www.
     </g>
     
     <!-- Circular Chart for Card 1 (Right side) -->
-    <g transform="translate(410, 85)">
+    <g transform="translate(430, 85)">
       <circle r="26" class="ring-bg"/>
       <!-- Dart 60%, Python 40% -->
       <circle r="26" fill="none" stroke="#38BDF8" stroke-width="6" stroke-dasharray="98 163.3" transform="rotate(-90)"/>
       <circle r="26" fill="none" stroke="#34D399" stroke-width="6" stroke-dasharray="65.3 163.3" transform="rotate(126)"/>
       <text y="4" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="bold">60%</text>
     </g>
-    <g transform="translate(340, 65)">
-      <circle cx="0" cy="-3" r="3" fill="#38BDF8"/>
-      <text x="8" y="0" class="stat-text" fill="#94A3B8">Dart 60%</text>
-      <circle cx="0" cy="12" r="3" fill="#34D399"/>
-      <text x="8" y="15" class="stat-text" fill="#94A3B8">Python 40%</text>
+    <g transform="translate(390, 65)">
+      <text x="0" y="0" class="stat-text" fill="#94A3B8" text-anchor="end">Dart 60%</text>
+      <circle cx="-55" cy="-3" r="3" fill="#38BDF8"/>
+      <text x="0" y="15" class="stat-text" fill="#94A3B8" text-anchor="end">Python 40%</text>
+      <circle cx="-65" cy="12" r="3" fill="#34D399"/>
     </g>
   </g>
 
   <!-- CARD 2: Carrier Lock -->
-  <g transform="translate(480, 50)">
-    <rect width="450" height="150" class="card-bg"/>
+  <g transform="translate(510, 50)">
+    <rect width="470" height="150" class="card-bg"/>
     <circle cx="15" cy="15" r="3" fill="#A78BFA"/>
     <text x="25" y="19" class="repo-title">VandanArora18/CarrierLock</text>
-    <circle cx="435" cy="15" r="3" fill="#1E293B"/>
+    <circle cx="455" cy="15" r="3" fill="#1E293B"/>
     
     <g transform="translate(15, 45)">
       <g clip-path="url(#imgClip)">
@@ -94,18 +94,18 @@ svg = f"""<svg width="950" height="220" viewBox="0 0 950 220" xmlns="http://www.
     </g>
     
     <!-- Circular Chart for Card 2 (Right side) -->
-    <g transform="translate(410, 85)">
+    <g transform="translate(430, 85)">
       <circle r="26" class="ring-bg"/>
       <!-- Dart 85%, Java 15% -->
       <circle r="26" fill="none" stroke="#A78BFA" stroke-width="6" stroke-dasharray="138.8 163.3" transform="rotate(-90)"/>
       <circle r="26" fill="none" stroke="#F59E0B" stroke-width="6" stroke-dasharray="24.5 163.3" transform="rotate(216)"/>
       <text y="4" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="bold">85%</text>
     </g>
-    <g transform="translate(340, 65)">
-      <circle cx="0" cy="-3" r="3" fill="#A78BFA"/>
-      <text x="8" y="0" class="stat-text" fill="#94A3B8">Dart 85%</text>
-      <circle cx="0" cy="12" r="3" fill="#F59E0B"/>
-      <text x="8" y="15" class="stat-text" fill="#94A3B8">Java 15%</text>
+    <g transform="translate(390, 65)">
+      <text x="0" y="0" class="stat-text" fill="#94A3B8" text-anchor="end">Dart 85%</text>
+      <circle cx="-55" cy="-3" r="3" fill="#A78BFA"/>
+      <text x="0" y="15" class="stat-text" fill="#94A3B8" text-anchor="end">Java 15%</text>
+      <circle cx="-55" cy="12" r="3" fill="#F59E0B"/>
     </g>
   </g>
 

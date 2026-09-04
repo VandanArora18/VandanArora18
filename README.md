@@ -83,9 +83,9 @@
 <p align="center">
   <!-- GitHub Stats Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&hide_border=true&hide_rank=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&hide_border=true&hide_rank=true" />
-    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&hide_border=true&hide_rank=true" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&hide_border=true&hide_rank=true&hide_title=true" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&hide_border=true&hide_rank=true&hide_title=true" />
+    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=0D1117&hide_border=true&hide_rank=true&hide_title=true" width="49%" />
   </picture>
   &nbsp;
   <!-- Top Languages Card -->
@@ -116,7 +116,7 @@
 
 <p align="center">
   <picture>
-    <img alt="Featured Projects" src="projects.svg?v=2" width="100%" />
+    <img alt="Featured Projects" src="projects.svg?v=3" width="100%" />
   </picture>
 </p>
 

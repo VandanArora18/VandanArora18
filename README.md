@@ -66,6 +66,17 @@
 
 <br/>
 
+<!-- 💻 Featured Projects -->
+## 💻 Featured Projects
+
+<p align="center">
+  <picture>
+    <img alt="Featured Projects" src="projects.svg" width="100%" />
+  </picture>
+</p>
+
+<br/>
+
 <!-- 📊 Self-Hosted GitHub Statistics & Streak -->
 ## 📊 GitHub Analytics
 

@@ -130,6 +130,4 @@
 <br/>
 
 <!-- 🤝 Connect with Me -->
-<p align="center">
-  <i>Designed with 💙 for Robotics & Artificial Intelligence | <b>Vandan Arora</b></i>
-</p>
+

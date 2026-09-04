@@ -66,16 +66,7 @@
 
 <br/>
 
-<!-- 💻 Featured Projects -->
-## 💻 Featured Projects
 
-<p align="center">
-  <picture>
-    <img alt="Featured Projects" src="projects.svg" width="100%" />
-  </picture>
-</p>
-
-<br/>
 
 <!-- 📊 Self-Hosted GitHub Statistics & Streak -->
 ## 📊 GitHub Analytics
@@ -83,9 +74,9 @@
 <p align="center">
   <!-- Streak Counter -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=38BDF8&stroke=38BDF8&currStreakNum=38BDF8&sideNums=38BDF8&sideTitle=F8FAFC&dates=94A3B8" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=default&background=FFFFFF&border=0284C7&stroke=0284C7" />
-    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=38BDF8&stroke=38BDF8" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=A78BFA&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakNum=A78BFA&sideNums=A78BFA&sideTitle=F8FAFC&dates=94A3B8" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=default&background=FFFFFF&border=6D28D9&stroke=6D28D9&ring=6D28D9&fire=6D28D9&currStreakNum=6D28D9&sideNums=6D28D9" />
+    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=A78BFA&stroke=A78BFA&ring=A78BFA&fire=A78BFA" width="49%" />
   </picture>
   &nbsp;
   <!-- Top Languages Card -->
@@ -106,6 +97,17 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-light.svg" />
     <img alt="Snake eating contribution graph" src="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-light.svg" width="100%" />
+  </picture>
+</p>
+
+<br/>
+
+<!-- 💻 Featured Projects -->
+## 💻 Featured Projects
+
+<p align="center">
+  <picture>
+    <img alt="Featured Projects" src="projects.svg" width="100%" />
   </picture>
 </p>
 

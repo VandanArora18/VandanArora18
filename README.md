@@ -99,18 +99,18 @@
 </p>
 
 <p align="center">
-  <!-- GitHub Stats Card (Self-Hosted Vercel Instance) -->
+  <!-- GitHub Stats Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-acme-6240.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=070C18&title_color=38BDF8&text_color=F8FAFC&icon_color=38BDF8&border_color=38BDF8&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-acme-6240.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=0F172A&icon_color=0284C7&border_color=0284C7&hide_border=false" />
-    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats-acme-6240.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=070C18&title_color=38BDF8&text_color=F8FAFC&icon_color=38BDF8&border_color=38BDF8&hide_border=false" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=0F172A&icon_color=0284C7&border_color=0284C7&hide_border=false" />
+    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark" width="49%" />
   </picture>
   &nbsp;
-  <!-- Top Languages Card (Self-Hosted Vercel Instance) -->
+  <!-- Top Languages Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-acme-6240.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-acme-6240.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
-    <img alt="Vandan's Top Languages" src="https://github-readme-stats-acme-6240.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
+    <img alt="Vandan's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
   </picture>
 </p>
 

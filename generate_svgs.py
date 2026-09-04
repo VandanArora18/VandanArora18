@@ -251,6 +251,8 @@ def build_svg(mode, p_groups, sym_groups_list):
     </g>
   </g>
 </g>
+  <!-- Outer Banner Border -->
+  <rect x="2" y="2" width="1176" height="606" rx="18" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.6"/>
 </svg>'''
 
 def main():

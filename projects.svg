@@ -46,14 +46,14 @@
     </g>
     
     <!-- Circular Chart for Card 1 (Right side) -->
-    <g transform="translate(390, 85)">
+    <g transform="translate(400, 85)">
       <circle r="26" class="ring-bg"/>
       <!-- Dart 60%, Python 40% -->
       <circle r="26" fill="none" stroke="#38BDF8" stroke-width="6" stroke-dasharray="98 163.3" transform="rotate(-90)"/>
       <circle r="26" fill="none" stroke="#34D399" stroke-width="6" stroke-dasharray="65.3 163.3" transform="rotate(126)"/>
       <text y="4" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="bold">60%</text>
     </g>
-    <g transform="translate(310, 65)">
+    <g transform="translate(330, 65)">
       <circle cx="0" cy="-3" r="3" fill="#38BDF8"/>
       <text x="8" y="0" class="stat-text" fill="#94A3B8">Dart 60%</text>
       <circle cx="0" cy="12" r="3" fill="#34D399"/>
@@ -85,14 +85,14 @@
     </g>
     
     <!-- Circular Chart for Card 2 (Right side) -->
-    <g transform="translate(390, 85)">
+    <g transform="translate(400, 85)">
       <circle r="26" class="ring-bg"/>
       <!-- Dart 85%, Java 15% -->
       <circle r="26" fill="none" stroke="#A78BFA" stroke-width="6" stroke-dasharray="138.8 163.3" transform="rotate(-90)"/>
       <circle r="26" fill="none" stroke="#F59E0B" stroke-width="6" stroke-dasharray="24.5 163.3" transform="rotate(216)"/>
       <text y="4" text-anchor="middle" fill="#F8FAFC" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" font-weight="bold">85%</text>
     </g>
-    <g transform="translate(310, 65)">
+    <g transform="translate(330, 65)">
       <circle cx="0" cy="-3" r="3" fill="#A78BFA"/>
       <text x="8" y="0" class="stat-text" fill="#94A3B8">Dart 85%</text>
       <circle cx="0" cy="12" r="3" fill="#F59E0B"/>

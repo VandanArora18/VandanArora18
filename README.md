@@ -74,16 +74,14 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=38BDF8&stroke=38BDF8&currStreakNum=38BDF8&sideNums=38BDF8&sideTitle=F8FAFC&dates=94A3B8" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=VandanArora18&theme=default&background=FFFFFF&border=0284C7&stroke=0284C7" />
-    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=38BDF8&stroke=38BDF8" width="100%" />
+    <img alt="Vandan's GitHub Streak" src="https://streak-stats.demolab.com/?user=VandanArora18&theme=dark&background=070C18&border=38BDF8&stroke=38BDF8" width="49%" />
   </picture>
-</p>
-
-<p align="center">
+  &nbsp;
   <!-- Top Languages Card -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
-    <img alt="Vandan's Top Languages" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="100%" />
+    <img alt="Vandan's Top Languages" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
   </picture>
 </p>
 

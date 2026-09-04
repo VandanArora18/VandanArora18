@@ -246,7 +246,7 @@ def build_svg(mode, p_groups, sym_groups_list):
       <text x="20" y="30" font-size="12" fill="#94A3B8" font-weight="600">HIGHLIGHTED PROJECTS &amp; INNOVATIONS</text>
       <g transform="translate(20,44)" font-size="12">
         <text x="0" y="15" fill="#38BDF8" font-weight="bold">Carrier Lock System</text><text x="170" y="15" fill="#94A3B8">Automated carrier locking security system for mobile devices</text>
-        <text x="0" y="42" fill="#A78BFA" font-weight="bold">AdmitOne App</text><text x="170" y="42" fill="#94A3B8">Smart authentication &amp; ticketing platform with Flutter &amp; Firebase</text>
+        <text x="0" y="42" fill="#A78BFA" font-weight="bold">GrabScale</text><text x="170" y="42" fill="#94A3B8">Smart dimensioning platform with flutter fast api and firebase .</text>
       </g>
     </g>
   </g>

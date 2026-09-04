@@ -13,9 +13,9 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageDraw, ImageFont, ImageOps
 # ── Config ───────────────────────────────────────────────────────────
 CW, CH = 315, 340  # Exact reference grid size for the pixel art
 N_PG = 15          # Groups for staggering the reveal
-LOGOS = ["python.png", "tf.png", "vercel.png", "opencv.png", "dart.png"]
+LOGOS = ["python.png", "tf.png", "vercel.png", "opencv.png", "dart.png", "flutter.png", "pytorch.png", "numpy.png", "git.png", "firbase.png"]
 N_PHASES = 1 + len(LOGOS)
-CYC_D = 18.0       # cycle period
+CYC_D = 36.0       # cycle period
 CYC_T = 3.2        # start cycle after initial reveal
 
 # ── Helpers ──────────────────────────────────────────────────────────

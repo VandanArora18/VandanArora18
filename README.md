@@ -7,20 +7,7 @@
   </picture>
 </p>
 
-<!-- 🌐 Quick Social & Connect Badges -->
-<p align="center">
-  <a href="mailto:vandanarora18@gmail.com">
-    <img src="https://img.shields.io/badge/Email-vandanarora18%40gmail.com-0A101F?style=for-the-badge&logo=gmail&logoColor=EA4335&labelColor=0A101F" alt="Email">
-  </a>
-  <a href="https://linkedin.com/in/vandan-arora-ba348525b/">
-    <img src="https://img.shields.io/badge/LinkedIn-Vandan_Arora-0A101F?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=0A101F" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/VandanArora18">
-    <img src="https://img.shields.io/badge/GitHub-VandanArora18-0A101F?style=for-the-badge&logo=github&logoColor=white&labelColor=0A101F" alt="GitHub">
-  </a>
-</p>
 
-<br/>
 
 <!-- 🧠 About Me & Engineering Focus -->
 ## 👨‍💻 About Me
@@ -101,16 +88,16 @@
 <p align="center">
   <!-- GitHub Stats Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=070C18&title_color=38BDF8&text_color=F8FAFC&icon_color=38BDF8&border_color=38BDF8&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=0F172A&icon_color=0284C7&border_color=0284C7&hide_border=false" />
-    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark&bg_color=070C18&title_color=38BDF8&text_color=F8FAFC&icon_color=38BDF8&border_color=38BDF8&hide_border=false" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=default&bg_color=FFFFFF&title_color=0284C7&text_color=0F172A&icon_color=0284C7&border_color=0284C7&hide_border=false" />
+    <img alt="Vandan's GitHub Stats" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api?username=VandanArora18&show_icons=true&theme=dark" width="49%" />
   </picture>
   &nbsp;
   <!-- Top Languages Card -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
-    <img alt="Vandan's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark&bg_color=070C18&title_color=A78BFA&text_color=F8FAFC&icon_color=A78BFA&border_color=A78BFA&hide_border=false" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=default&bg_color=FFFFFF&title_color=6D28D9&text_color=0F172A&icon_color=6D28D9&border_color=6D28D9&hide_border=false" />
+    <img alt="Vandan's Top Languages" src="https://github-readme-stats-sigma-rosy-28.vercel.app/api/top-langs/?username=VandanArora18&layout=compact&theme=dark" width="49%" />
   </picture>
 </p>
 
@@ -125,4 +112,19 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-light.svg" />
     <img alt="Snake eating contribution graph" src="https://raw.githubusercontent.com/VandanArora18/VandanArora18/output/snake-light.svg" width="100%" />
   </picture>
+</p>
+
+<br/>
+
+<!-- 🌐 Connect With Me -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/vandan-arora-1b61a02ab/">
+    <img src="https://img.shields.io/badge/-LINKEDIN-0A101F?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/vandan__arora">
+    <img src="https://img.shields.io/badge/-INSTAGRAM-0A101F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+  </a>
+  <a href="mailto:vandanarora18@gmail.com">
+    <img src="https://img.shields.io/badge/-EMAIL-0A101F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
 </p>

@@ -106,24 +106,42 @@ def make_symbol(text):
     return _groups(img.convert('1', dither=Image.Dither.FLOYDSTEINBERG), N_SG)
 
 # ── SVG Builders ─────────────────────────────────────────────────────
-def portrait_svg(groups):
+def build_art_groups(groups, phase_i):
     parts = []
+    n = len(groups)
     for i, g in enumerate(groups):
         d = _path(g)
         if not d: continue
-        t = FI_T0 + i * FI_DT
-        parts.append(
-            f'<g opacity="0"><animate attributeName="opacity" values="0;1" '
-            f'dur="{FI_DUR}s" begin="{t:.3f}s" fill="freeze" calcMode="spline" '
-            f'keyTimes="0;1" keySplines=".4 0 .2 1"/><path d="{d}"/></g>')
+        
+        p = 1.0 / N_PHASES
+        tr = 0.03
+        s, e = phase_i * p, (phase_i + 1) * p
+        off = (i / n) * 0.06  # stagger offset
+        
+        def clamp(val): return max(0.0, min(1.0, val))
+        t1, t2 = clamp(s - tr + off), clamp(s + tr + off)
+        t3, t4 = clamp(e - tr + off), clamp(e + tr + off)
+        
+        if phase_i == 0:
+            v = "1;1;0;0;1"
+            k = f"0;{t3:.4f};{t4:.4f};{clamp(1-tr+off):.4f};1"
+            t_rev = FI_T0 + i * FI_DT
+            anim = f'<animate attributeName="opacity" values="0;1" dur="{FI_DUR}s" begin="{t_rev:.3f}s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/>'
+            anim += f'<animate attributeName="opacity" values="{v}" keyTimes="{k}" dur="{CYC_D}s" begin="{CYC_T}s" repeatCount="indefinite"/>'
+        else:
+            if phase_i == N_PHASES - 1:
+                v = "0;0;1;1;0"
+                k = f"0;{t1:.4f};{t2:.4f};{clamp(1-tr+off):.4f};1"
+            else:
+                v = "0;0;1;1;0;0"
+                k = f"0;{t1:.4f};{t2:.4f};{t3:.4f};{t4:.4f};1"
+            anim = f'<animate attributeName="opacity" values="{v}" keyTimes="{k}" dur="{CYC_D}s" begin="{CYC_T}s" repeatCount="indefinite"/>'
+            
+        parts.append(f'<g opacity="0">{anim}<path d="{d}"/></g>')
     return "\n      ".join(parts)
 
-def symbol_svg(groups):
-    all_px = [p for g in groups for p in g]
-    return f'<path d="{_path(all_px)}"/>'
-
 # ── SVG Template ─────────────────────────────────────────────────────
-def build_svg(mode, p_svg, sym_svgs):
+def build_svg(mode, p_groups, sym_groups_list):
     dk = mode == "dark"
     C = {
         'bg':  "#030712"  if dk else "#E2E8F0",
@@ -177,15 +195,9 @@ def build_svg(mode, p_svg, sym_svgs):
     sfx = "" if dk else "L"
 
     # Build pixel art groups dynamically
-    art_parts = [f'''    <g>
-      {_cycle_anim(0)}
-      {p_svg}
-    </g>''']
-    for i, s_svg in enumerate(sym_svgs, 1):
-        art_parts.append(f'''    <g opacity="0">
-      {_cycle_anim(i)}
-      {s_svg}
-    </g>''')
+    art_parts = [f'    <g>\n      {build_art_groups(p_groups, 0)}\n    </g>']
+    for i, sg in enumerate(sym_groups_list, 1):
+        art_parts.append(f'    <g>\n      {build_art_groups(sg, i)}\n    </g>')
     art_block = "\n".join(art_parts)
 
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
@@ -281,16 +293,14 @@ def main():
 
     print("2/3  Generating language symbols...")
     sym_groups = [make_symbol(s) for s in SYMBOLS]
-    sym_svgs_list = [symbol_svg(sg) for sg in sym_groups]
     print(f"     Symbols: {', '.join(SYMBOLS)}")
 
     print("3/3  Building SVGs...")
-    p = portrait_svg(pg)
 
     for m in ("dark", "light"):
         out = os.path.join(repo, f"{m}.svg")
         with open(out, "w", encoding="utf-8") as f:
-            f.write(build_svg(m, p, sym_svgs_list))
+            f.write(build_svg(m, pg, sym_groups))
         print(f"     {m}.svg -> {os.path.getsize(out):,} bytes")
 
     print("Done!")

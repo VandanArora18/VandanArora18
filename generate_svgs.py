@@ -68,19 +68,27 @@ def process_photo(path):
     # Resize first
     img.thumbnail((CW, CH), Image.Resampling.LANCZOS)
     w, h = img.size
+    
+    # Create background mask from original (where pixel < 30 is background)
+    mask = img.point(lambda p: 255 if p >= 25 else 0, mode='1')
+    
+    # Invert so bright areas get more dots (become dark for dithering)
+    img = ImageOps.invert(img)
+    
+    # Force background to be white (no dots)
+    px = img.load()
+    mx = mask.load()
+    for y in range(h):
+        for x in range(w):
+            if mx[x, y] == 0:
+                px[x, y] = 255
+                
     canvas = Image.new('L', (CW, CH), 255)
     canvas.paste(img, ((CW - w) // 2, (CH - h) // 2))
 
-    # Remove dark background: set very dark pixels to white
-    px = canvas.load()
-    for y in range(CH):
-        for x in range(CW):
-            if px[x, y] < 30:
-                px[x, y] = 255
-
     # Smooth edges after background removal + enhance
     canvas = canvas.filter(ImageFilter.GaussianBlur(radius=0.4))
-    canvas = ImageEnhance.Contrast(canvas).enhance(1.5)
+    canvas = ImageEnhance.Contrast(canvas).enhance(1.2)
     canvas = ImageEnhance.Sharpness(canvas).enhance(1.5)
     canvas = canvas.filter(ImageFilter.UnsharpMask(radius=2, percent=120, threshold=3))
 

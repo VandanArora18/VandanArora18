@@ -22,7 +22,7 @@
 
 - 🤖 **Passionate about Robotics & AI**: Building intelligent systems that combine real-time computer vision, deep learning, and hardware automation.
 - ⚡ **Core Engineering**: Developing robust backends with **Python & FastAPI**, mobile applications with **Flutter**, and edge AI algorithms with **OpenCV & PyTorch**.
-- 🔐 **Featured Work**: Built **Carrier Lock System** for mobile device carrier security and **AdmitOne** smart ticketing application.
+- 🔐 **Featured Work**: Built **Carrier Lock System** for mobile device carrier security and **GrabScale** Smart Dimensioning System.
 - 🎯 **Goals**: Designing next-gen autonomous robotic systems and high-throughput computer vision pipelines.
 
 <br/>
